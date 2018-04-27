@@ -3,6 +3,7 @@ import Header from './Header'
 import Acordion from './Acordion'
 import Footer from './Footer'
 import Personal from './Personal'
+import Hobbies from './Hobbies'
 
 class App extends Component {  
 	render() {
@@ -17,6 +18,7 @@ class App extends Component {
 				title={'Employment History'}
 				items={[{text: '2', key: Math.random()}]}
 			/>,
+			<Hobbies />,
 			<Footer/>
 		]
 	}

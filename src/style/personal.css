@@ -5,6 +5,7 @@ dt {
   float: left;
   clear: left;
   width: 50px;
+  text-align: right;
 }
 dd {
   display: table-cell;
@@ -14,8 +15,13 @@ dd {
 }
 
 .personal {
-  width: 40%;
+  width: 20%;
   margin: auto;
+  font-size: 18px;
+}
+
+a {
+  color: black;
 }
 
 /* dt {

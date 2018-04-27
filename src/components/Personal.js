@@ -7,7 +7,7 @@ class Personal extends Component {
 	render() {
 
 		return(
-			<div class="pa3 pa5-ns tc personal">
+			<div class="pa3 tc personal">
 				<dl class="lh-title mv2">
 					<dt class="dib b"><i className="material-icons">person</i></dt>
 					<dd class="dib">Johan Laas</dd>
@@ -17,9 +17,9 @@ class Personal extends Component {
 					<dd class="dib">24.06.1991</dd>
 				</dl>
 				<dl class="lh-title mv2">
-					<dt class="dim gray dib b"><a href={'mailto:' + 'johanlaas4@gmail.com'} style={{color: 'black'}}>
+					<dt class="link dim gray dib b"><a href={'mailto:' + 'johanlaas4@gmail.com'}>
 						<i className="material-icons">mail</i></a></dt>
-					<dd class="dib"><a class='link underline-hover' href={'mailto:' + 'johanlaas4@gmail.com'} style={{color: 'black'}}>johanlaas4@gmail.com</a></dd>
+					<dd class="dib"><a class='link underline-hover' href={'mailto:' + 'johanlaas4@gmail.com'}>johanlaas4@gmail.com</a></dd>
 				</dl>
 				<dl class="lh-title mv2">
 					<dt class="dib b"><i className="material-icons">call</i></dt>

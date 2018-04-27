@@ -77,7 +77,7 @@ class Acordion extends Component {
 							<form onSubmit={this.addItem}>
 								<input 
 									ref={(a) => this._inputElement = a}
-									blaceholder='add some shit'>
+									blaceholder='Add'>
 								</input>
 								<button type='submit'>Add</button>
 							</form>

@@ -1,0 +1,10 @@
+#addHobbies {
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 110px;
+}
+
+#hobbies {
+  width: 30%;
+  margin: auto;
+}
