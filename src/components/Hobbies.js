@@ -11,13 +11,6 @@ class Hobbies extends Component {
 			items: []
 		}
 		this.addItem = this.addItem.bind(this)
-		this.handleClick = this.handleClick.bind(this)
-	}  
-  
-	handleClick() {
-		this.setState(prevState => ({
-			isOpened: !prevState.isOpened
-		}))
 	}
   
 	addItem(e) {
@@ -35,8 +28,12 @@ class Hobbies extends Component {
 
 			this._inputElement.value = ''
 		}
-    
+		
 		e.preventDefault()
+
+		this.setState(prevState => ({
+			isOpened: !prevState.isOpened
+		}))
 	}
   
 	createTasks(items) {
@@ -74,7 +71,7 @@ class Hobbies extends Component {
 						</form>
 					</Collapse>
 					<i 
-						onClick={this.handleClick} 
+						onClick={this.addItem}
 						className="material-icons"
 						id='addHobbies'
 					>add_circle</i>
