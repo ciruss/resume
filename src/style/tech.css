@@ -1,0 +1,9 @@
+#addTech {
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+#tech {
+  width: 30%;
+  margin: auto;
+}
